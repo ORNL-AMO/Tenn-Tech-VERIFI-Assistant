@@ -11,7 +11,7 @@ Every record has a stable ID so the assistant can cite the material used in an a
 - **Status:** Reviewed
 - **Applies to:** VERIFI v0; web and desktop
 - **User intents:** “What is VERIFI?”, “What can this tool help me do?”
-- **Keywords:** utility tracking, energy, water, cost, emissions, analysis, reports, facilities
+- **Keywords:** utility tracking, energy, water, cost, analysis, reports, facilities
 - **Safety:** Normal
 
 ### Customer-reviewed answer
@@ -61,12 +61,12 @@ Loading a backup is different from importing utility data from a spreadsheet. As
 - **Status:** Reviewed
 - **Applies to:** VERIFI v0; web and desktop
 - **User intents:** “What information is required for an account?”, “Why does VERIFI ask for account defaults?”
-- **Keywords:** company, account, ZIP code, NAICS, units, defaults, goals, GHG
+- **Keywords:** company, account, ZIP code, NAICS, units, defaults, goals
 - **Safety:** Normal
 
 ### Customer-reviewed answer
 
-An account represents the company or organization whose facilities and utility data will be managed together. The account name is required. Point-of-contact information and a NAICS code are optional. Location information such as a ZIP code can support weather and greenhouse-gas workflows.
+An account represents the company or organization whose facilities and utility data will be managed together. The account name is required. Point-of-contact information and a NAICS code are optional. Location information such as a ZIP code can support weather workflows.
 
 Account setup also establishes defaults that facilities can inherit, including collection or reporting units and relevant reporting preferences. Goals and reporting information can also be configured at the account level. Individual facilities may later override applicable inherited settings.
 
@@ -157,12 +157,12 @@ Ask what kind of file and how much data the user has before choosing a method. M
 - **Status:** Reviewed
 - **Applies to:** VERIFI v0; web and desktop
 - **User intents:** “What does VERIFI mean by meter?”, “Do non-utility values use meters too?”
-- **Keywords:** meter, bill, utility, fuel, mobile, fugitive, output, REC, group
+- **Keywords:** meter, bill, utility, usage, data point, group
 - **Safety:** Normal
 
 ### Customer-reviewed answer
 
-VERIFI associates usage data with a meter. For utilities, a meter may represent an individual billed meter or a pre-grouped utility data point. For non-utility sources—such as mobile fuel, other outputs, fugitive releases, or certain financial agreements—the meter represents the amount used, purchased, or released over a period.
+VERIFI associates utility-usage data with a meter. A meter may represent an individual billed meter or a pre-grouped utility data point.
 
 Starting with individual meters provides flexibility. Users can monitor separate areas, group meters differently for analysis, and calendarize meters independently when their billing periods do not align.
 
@@ -223,14 +223,14 @@ The assistant should explain the purpose and documented options but should not c
 - **Status:** Reviewed
 - **Applies to:** VERIFI v0; web and desktop
 - **User intents:** “Why do I need meter groups?”, “How should I group meters for analysis?”
-- **Keywords:** meter group, analysis group, process, production, office, renewable, REC, mobile
+- **Keywords:** meter group, analysis group, process, production, office, utility
 - **Safety:** Normal
 
 ### Customer-reviewed answer
 
 Analysis groups are collections of meters evaluated together. Open **Meter Groupings** to create or edit groups and assign meters.
 
-Groups should reflect the question being analyzed. Users might separate production energy from office energy, combine related utility meters, keep mobile-fuel meters together, or place other meters and renewable-energy certificates in separate groups. Starting with individual meters makes it possible to try different meaningful groupings later.
+Groups should reflect the question being analyzed. Users might separate production energy from office energy or combine related utility meters. Starting with individual meters makes it possible to try different meaningful groupings later.
 
 ### Limitations
 
@@ -421,12 +421,12 @@ Do not recommend marking an established facility as new merely to bypass a year 
 - **Status:** Reviewed
 - **Applies to:** VERIFI v0; web and desktop
 - **User intents:** “What reports can VERIFI create?”, “Can I export a report?”
-- **Keywords:** report, Excel, PDF, Better Plants, Better Climate, water, performance, modeling, data overview
+- **Keywords:** report, Excel, PDF, Better Plants, water, performance, modeling, data overview
 - **Safety:** Normal
 
 ### Customer-reviewed answer
 
-VERIFI provides facility- and company-level reports based on entered data and completed analyses. Examples include analysis results and regression-quality information, data-overview reports, savings reports, Better Plants energy and water reports, Better Climate Challenge reports, energy-performance reports, and modeling reports.
+VERIFI provides facility- and company-level reports based on entered data and completed analyses. Examples include analysis results and regression-quality information, data-overview reports, savings reports, Better Plants energy and water reports, energy-performance reports, and modeling reports.
 
 Available reports can be viewed in VERIFI, and supported report screens provide export options such as Excel or PDF. Report availability depends on the required setup, data, and analysis results.
 

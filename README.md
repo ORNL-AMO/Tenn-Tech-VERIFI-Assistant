@@ -30,7 +30,7 @@ The application should:
 
 ### Project boundaries
 
-This project is a proof of concept, not a production VERIFI integration. It will not modify VERIFI data, perform actions for the user, navigate VERIFI automatically, or calculate authoritative energy, savings, emissions, or reporting results. Fine-tuning a model and extracting the PDFs at runtime are not required. The project is limited to VERIFI v0; future interfaces are outside its scope.
+This project is a proof of concept, not a production VERIFI integration. It will not modify VERIFI data, perform actions for the user, navigate VERIFI automatically, or calculate authoritative energy, savings, or reporting results. Fine-tuning a model and extracting the PDFs at runtime are not required. The project is limited to VERIFI v0; future interfaces are outside its scope.
 
 Electron may be investigated if the team believes it offers a useful deployment or user-experience benefit. It is not required, and it should not be assumed to improve WebLLM performance without evidence.
 

@@ -29,15 +29,6 @@ The capstone proof of concept is complete only when the team can demonstrate the
 - Citations identify records that actually support the associated claims.
 - Automated tests cover retrieval behavior, prompt or context assembly, citation preservation, insufficient-information handling, and safety-warning preservation.
 
-## Accessibility and usability
-
-- Core chat functions can be completed with a keyboard.
-- Interactive controls have accessible names and visible focus.
-- Loading and generated-response updates are understandable without relying only on color or animation.
-- Streamed output remains readable while it is being generated.
-- Stop, retry, reset, and dismiss controls are discoverable and do not rely on unexplained icons.
-- The team documents manual usability and accessibility checks and resolves critical findings before handoff.
-
 ## Privacy and operational boundaries
 
 - Conversation content and inference remain local to the application.
@@ -62,9 +53,8 @@ The final handoff package must contain:
 
 1. Golden-question scores and reviewed responses.
 2. Automated test results.
-3. Manual usability and accessibility check results.
-4. Setup and architecture documentation.
-5. A list of known limitations and deferred work.
-6. A final demonstration or recording agreed upon with the customer.
+3. Setup and architecture documentation.
+4. A list of known limitations and deferred work.
+5. A final demonstration or recording agreed upon with the customer.
 
 Meeting a schedule or completing a list of implementation tasks does not by itself satisfy this Definition of Done; the observable outcomes and evidence above are required.

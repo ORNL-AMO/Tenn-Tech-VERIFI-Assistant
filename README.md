@@ -38,6 +38,8 @@ Electron may be investigated if the team believes it offers a useful deployment 
 
 The student team owns its proposed architecture, development process, risk management, priorities, milestones, semester schedule, and intermediate demonstrations. The team should present these decisions and any meaningful changes in scope to the customer for approval. The customer will evaluate outcomes rather than prescribe a week-by-week implementation plan.
 
+Use the [Tenn Tech VERIFI Assistant Kanban board](https://github.com/orgs/ORNL-AMO/projects/12/views/1?system_template=kanban) to organize and communicate planned, in-progress, and completed work.
+
 ### Customer-provided materials
 
 - [Starter knowledge corpus](knowledge-base/starter-corpus.md)

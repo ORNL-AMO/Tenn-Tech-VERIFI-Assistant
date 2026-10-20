@@ -1,0 +1,15 @@
+
+html, body {
+  height: 100%;
+  width: 100%; /* ensure full width */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* prevent double scrollbars if the chat scrolls internally */
+  font-size:1.7em /*found the small message culprit: change this to change overall app font sizes*/
+}
+
+app-root {
+  display: block;
+  height: 100%;
+  width: 100%; /* ensure the root component fills the body */
+}

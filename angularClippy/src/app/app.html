@@ -1,0 +1,45 @@
+<div class="chat-container">
+  <!-- The Messages Area -->
+  <div class="messages">
+    @for (msg of messages(); track $index) {
+      <!-- Handles Alignment -->
+      <div class="message-row" [class.user]="msg.role === 'user'">
+        <!-- Align Message Bubbles -->
+        <div class="message">
+          <!-- Icon Bubbles -->
+          <div class="avatar">
+            @if (msg.role === 'user') {
+              <mat-icon>person</mat-icon>
+            } @else {
+              <mat-icon>smart_toy</mat-icon>
+            }
+          </div>
+          <!-- Text Bubbles  -->
+          <div class="bubble">
+            <span class="role">{{ msg.role }}</span>
+            <span>{{ msg.content }}</span>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+
+  <!-- Composer: Area that user will type in -->
+  <div class="composer">
+    <input
+      class="input-field"
+      type="text"
+      [value]="userMessage()"
+      (input)="userMessage.set($any($event.target).value)"
+      (keyup.enter)="sendMessage()"
+      [disabled]="isLoading()"
+      [placeholder]="loadingMessage()" />
+
+    <button
+      class="send-btn"
+      (click)="sendMessage()"
+      [disabled]="isLoading() || !userMessage().trim()">
+      <mat-icon>send</mat-icon>
+    </button>
+  </div>
+</div>

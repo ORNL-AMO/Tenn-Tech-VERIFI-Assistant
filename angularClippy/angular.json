@@ -25,7 +25,8 @@
               },
               {
                 "glob": "**/*",
-                "input": "src/knowledge-base"
+                "input": "src/knowledge-base",
+                "output": "knowledge-base/"
               }
             ],
             "styles": ["src/material-theme.scss", "src/styles.css"]
